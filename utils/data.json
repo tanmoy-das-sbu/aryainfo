@@ -1,0 +1,74 @@
+[
+  {
+    "image": "/ServiceImage/desktop.jpg",
+    "num": "01",
+    "heading": "Desktop,Laptops, Servers & Workstations",
+    "description": "Elevate your business operations with our cutting-edge range of high-performance computer desktops, laptops,Servers & workstations tailored to meet your unique needs. We understand the pivotal role technology plays in driving success, and we're dedicated to providing you with the tools to stay ahead of the curve.",
+    "icon": "./icons/computer.svg",
+    "cardDes": "Elevate business with high-performance desktops and Servers. Tailored solutions for success."
+  },
+  {
+    "image": "/ServiceImage/printer.png",
+    "num": "02",
+    "heading": "Printer, Scanner & Imaging Solutions",
+    "description": "Enhance your document management with our comprehensive range of printing, scanning, and imaging solutions. Streamline your workflow and achieve greater efficiency in your daily operations.",
+    "icon": "./icons/printer.svg",
+    "cardDes": "Enhance document management with printing, scanning, and imaging solutions."
+  },
+  {
+    "image": "/ServiceImage/network.png",
+    "num": "03",
+    "heading": "End to End Networking Solutions",
+    "description": "Connect seamlessly with our end-to-end networking solutions. From local area networks (LAN) to wide area networks (WAN), we provide the infrastructure you need for efficient communication and data transfer.",
+    "icon": "./icons/network2.svg",
+    "cardDes": "Seamless connectivity with end-to-end networking solutions. LAN to WAN infrastructure."
+  },
+  {
+    "image": "/ServiceImage/cable.png",
+    "num": "04",
+    "heading": "Structured Cabling, Fiber/Copper",
+    "description": "Build a solid foundation for your network with our structured cabling solutions. Whether it's fiber or copper, we ensure reliable and scalable connectivity to support your evolving business needs.",
+    "icon": "./icons/cable.svg",
+    "cardDes": "Build a solid network foundation with reliable and scalable structured cabling solutions."
+  },
+  {
+    "image": "/ServiceImage/router.png",
+    "num": "05",
+    "heading": "Router & Switch based Networks",
+    "description": "Create robust and secure networks with our router and switch-based solutions. We design and implement networks that prioritize performance, security, and scalability for your business requirements.",
+    "icon": "./icons/router.svg",
+    "cardDes": "Robust and secure networks with router and switch-based solutions. Performance, security, scalability."
+  },
+  {
+    "image": "/ServiceImage/cctv.png",
+    "num": "06",
+    "heading": "CCTV / IP Surveillance & Security System",
+    "description": "Ensure the safety of your premises with our CCTV and IP surveillance systems. Our security solutions provide real-time monitoring and advanced features to protect your assets and personnel.",
+    "icon": "./icons/cctv.svg",
+    "cardDes": "Ensure premises safety with CCTV and IP surveillance. Real-time monitoring, advanced features."
+  },
+  {
+    "image": "/ServiceImage/service.png",
+    "num": "07",
+    "heading": "Partnered Service Provider",
+    "description": "Trust in our expertise as a brand-authorized and partnered service provider. We offer reliable and certified services to ensure the optimal performance and longevity of your technology investments.",
+    "icon": "./icons/service.svg",
+    "cardDes": "Trust our expertise as a brand-authorized service provider. Reliable, certified services."
+  },
+  {
+    "image": "/ServiceImage/maintenance.png",
+    "num": "08",
+    "heading": "Annual Maintenance Contracts(AMCs)",
+    "description": "Secure your peace of mind with our Annual Maintenance Contracts (AMCs). Our comprehensive service agreements cover regular maintenance, support, and troubleshooting, ensuring the continuous operation of your systems.",
+    "icon": "./icons/maintenance.svg",
+    "cardDes": "Secure peace of mind with comprehensive AMCs. Regular maintenance, support, troubleshooting."
+  },
+  {
+    "image": "/ServiceImage/network2.png",
+    "num": "09",
+    "heading": "Wireless Network Integration ",
+    "description": "Integrate diverse networking technologies seamlessly with our expertise in copper, fiber, and wireless solutions. We tailor network integration to meet the unique demands of your business, providing a robust and scalable infrastructure.",
+    "icon": "./icons/network1.svg",
+    "cardDes": "Integrate diverse networking technologies seamlessly. Copper, fiber, wireless solutions."
+  }
+]
