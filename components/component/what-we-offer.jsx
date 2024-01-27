@@ -13,8 +13,8 @@ export function WhatWeOffer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
             <>
               {data.map((ser, index) => (
-                <a href={`#${ser.num}`}>
-                  <Card key={index}
+                <a key={index} href={`#${ser.num}`}>
+                  <Card 
                     className="flex flex-col justify-between p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800"
                   >
                     <div className="flex items-center justify-center p-3 h-16 w-16 rounded-lg bg-gray-100 mb-4 dark:bg-gray-700">
