@@ -1,25 +1,33 @@
+'use client'
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet"
-
+const scroll = () => {
+  setTimeout(() => {
+    const section = document.querySelector( '#service' );
+    section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+  }, 500);
+  // const section = document.querySelector( '#service' );
+  // section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+};
 export function Navbar() {
   return (
     (
     <header className="container flex items-center justify-between px-6 py-4 md:px-8 lg:px-12">
-      <Link className="flex items-center" href="#">
+      <Link className="flex items-center" href="/">
         <span className=" font-bold tracking-tighter">ARYAMAN INFOTECH</span>
       </Link>
       <nav className="hidden lg:flex gap-4">
-        <Link className="text-sm font-medium hover:underline" href="#">
+        <Link className="text-sm font-medium hover:underline" href="/">
           Home
         </Link>
         <Link className="text-sm font-medium hover:underline" href="#">
           About
         </Link>
-        <Link className="text-sm font-medium hover:underline" href="#service">
+        <Link className="text-sm font-medium hover:underline" href="/" onClick={scroll}>
           Services
         </Link>
-        <Link className="text-sm font-medium hover:underline" href="#">
+        <Link className="text-sm font-medium hover:underline" href="/contact">
           Contact
         </Link>
       </nav>
@@ -41,7 +49,7 @@ export function Navbar() {
             <Link className="text-lg font-semibold" href="#service">
               Services
             </Link>
-            <Link className="text-lg font-semibold" href="#">
+            <Link className="text-lg font-semibold" href="/contact">
               Contact
             </Link>
           </nav>
