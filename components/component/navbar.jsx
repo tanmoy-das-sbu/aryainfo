@@ -13,21 +13,21 @@ const scroll = () => {
 export function Navbar() {
   return (
     (
-    <header className="container flex items-center justify-between px-6 py-4 md:px-8 lg:px-12">
+    <header className="container flex items-center justify-between h-20 px-6 py-4 md:px-8 lg:px-12">
       <Link className="flex items-center" href="/">
         <span className=" font-bold tracking-tighter">ARYAMAN INFOTECH</span>
       </Link>
       <nav className="hidden lg:flex gap-4">
-        <Link className="text-sm font-medium hover:underline" href="/">
+        <Link className="text-md font-medium hover:underline" href="/">
           Home
         </Link>
-        <Link className="text-sm font-medium hover:underline" href="#">
+        <Link className="text-md font-medium hover:underline" href="#">
           About
         </Link>
-        <Link className="text-sm font-medium hover:underline" href="/" onClick={scroll}>
+        <Link className="text-md font-medium hover:underline" href="/" onClick={scroll}>
           Services
         </Link>
-        <Link className="text-sm font-medium hover:underline" href="/contact">
+        <Link className="text-md font-medium hover:underline" href="/contact">
           Contact
         </Link>
       </nav>
@@ -46,7 +46,7 @@ export function Navbar() {
             <Link className="text-lg font-semibold" href="#">
               About
             </Link>
-            <Link className="text-lg font-semibold" href="#service">
+            <Link className="text-lg font-semibold" href="/" onClick={scroll}>
               Services
             </Link>
             <Link className="text-lg font-semibold" href="/contact">

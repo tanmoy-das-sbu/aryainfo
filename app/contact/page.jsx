@@ -54,13 +54,13 @@ export default function Contact() {
           </div>
           <Button>Submit</Button>
         </div> */}
-        <form className="flex flex-col items-start justify-center" onSubmit={handleSubmit}>
-      <div className="flex flex-col w-full p-5 items-start justify-center"  >
+        <form className="flex flex-col items-start justify-center rounded-lg border-solid border-2 border-gray-500" onSubmit={handleSubmit}>
+      <div className="flex flex-col w-full p-5 items-start justify-center "  >
         <label htmlFor="name">
         Name 
       </label>
       <input 
-      className="w-full p-2 border-solid border-2 border-gray-500"
+      className="w-full p-2 rounded-lg border-solid border-2 border-gray-500"
         id="name"
         type="name" 
         name="name"
@@ -76,7 +76,7 @@ export default function Contact() {
         Email Address
       </label>
       <input 
-      className="w-full p-2 border-solid border-2 border-gray-500"
+      className="w-full p-2 rounded-lg border-solid border-2 border-gray-500"
         id="email"
         type="email" 
         name="email"
@@ -92,7 +92,7 @@ export default function Contact() {
         Subject
       </label>
       <input 
-      className="w-full p-2 border-solid border-2 border-gray-500"
+      className="w-full p-2 rounded-lg border-solid border-2 border-gray-500"
         id="Subject"
         type="Subject" 
         name="Subject"
@@ -108,7 +108,7 @@ export default function Contact() {
         Message
       </label>
         <textarea
-        className="w-full border-solid border-2 border-gray-500"
+        className="w-full rounded-lg border-solid border-2 border-gray-500"
         id="message"
         name="message"
       />
