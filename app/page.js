@@ -8,13 +8,10 @@ import { WhatWeOffer } from "@/components/component/what-we-offer";
 
 export default function Home() {
   return (
-    
     <div>
-     <Navbar/>
-     <HeroSection/>
-     <WhatWeOffer/>
-     <Service/>
-     <Footer/>
+      <HeroSection />
+      <WhatWeOffer />
+      <Service />
     </div>
   );
 }
