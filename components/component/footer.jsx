@@ -9,6 +9,13 @@ export function Footer() {
     (<footer className="w-full py-12 bg-gray-900 text-white">
       <div
         className="container mx-auto px-4 md:px-6 lg:px-8 grid gap-8 md:grid-cols-3">
+          <div>
+          <Link className="flex items-center" href="/">
+            <div className="w-24 h-20 object-cover" >
+              <img src="/icons/logo.png" alt="" />
+            </div>
+          </Link>
+        </div>
         <div>
           <h4 className="text-lg font-semibold mb-4">Contact Information</h4>
           <p className="text-sm mb-2">Aryaman Infotech, Ranchi, Jharkhand, 12345</p>
@@ -32,13 +39,13 @@ export function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm">
-          
+
             <li>
               <Link className="hover:underline" href="#service">
                 Services
               </Link>
             </li>
-           
+
             <li>
               <Link className="hover:underline" href="#">
                 Privacy Policy
@@ -46,6 +53,7 @@ export function Footer() {
             </li>
           </ul>
         </div>
+        
       </div>
     </footer>)
   );

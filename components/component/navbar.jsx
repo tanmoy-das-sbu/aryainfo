@@ -15,7 +15,9 @@ export function Navbar() {
     (
     <header className="container flex items-center justify-between h-20 px-6 py-4 md:px-8 lg:px-12">
       <Link className="flex items-center" href="/">
-        <span className=" font-bold tracking-tighter">ARYAMAN INFOTECH</span>
+        <div className="w-24 h-20 object-cover" >
+          <img  src="/icons/logo.png" alt="" />
+          </div>
       </Link>
       <nav className="hidden lg:flex gap-4">
         <Link className="text-md font-medium hover:underline" href="/">
