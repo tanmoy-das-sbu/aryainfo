@@ -126,8 +126,8 @@ export default function Contact() {
       <div className="w-full lg:w-1/2 space-y-6">
         <h2 className="text-3xl font-bold mb-4">Our Location</h2>
         <p className="text-gray-500 dark:text-gray-400">1234 Street Name, City, State, 56789</p>
-        <p className="text-gray-500 dark:text-gray-400">Phone: (123) 456-7890</p>
-        <p className="text-gray-500 dark:text-gray-400">Email: info@company.com</p>
+        <a className="text-gray-500 dark:text-gray-400" href="tel:+919525521005">Phone: +91 9525521005</a>
+        <a className="text-gray-500 dark:text-gray-400" href="mailus:aryamaninfotech@gmail.com">Email: aryamaninfotech@gmail.com</a>
         <div className="w-full h-[400px]  rounded-md overflow-hidden">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.0517788611123!2d85.4105452753237!3d23.35013857894549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e322f9f9b353%3A0x7d7b40feb951ae94!2sSarala%20Birla%20University!5e0!3m2!1sen!2sin!4v1706951239983!5m2!1sen!2sin" width="100%" height="400" style={{border:"0"}} allowfullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
