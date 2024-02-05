@@ -17,7 +17,7 @@ export function HeroSection() {
                 Welcome to Aryaman Infotech
               </p>
               <h1 className="text-3xl font-bold tracking-tighter sm:text-6xl">
-              One-Stop Solution for <br /> Comprehensive  IT Services  <br />and Solutions
+              One-Stop for <br /> Comprehensive  IT Services  <br />and Solutions
               </h1>
               <p
                 className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">

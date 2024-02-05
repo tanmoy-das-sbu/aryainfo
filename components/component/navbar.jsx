@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet"
+import { Mail, Phone } from "lucide-react";
 const scroll = () => {
   setTimeout(() => {
     const section = document.querySelector( '#service' );
@@ -13,26 +14,34 @@ const scroll = () => {
 export function Navbar() {
   return (
     (
-    <header className="container flex items-center justify-between h-20 px-6 py-4 md:px-8 lg:px-12">
-      <Link className="flex items-center" href="/">
+    <header className="container flex items-center justify-between h-25 px-6 py-4 md:px-8 lg:px-12">
+      <div className="w-1/3 flex items-center justify-start"><Link className="flex items-center" href="/">
         <div className="w-24 h-20 object-cover" >
           <img  src="/icons/logo.png" alt="" />
           </div>
-      </Link>
-      <nav className="hidden lg:flex gap-4">
+      </Link></div>
+      <div className="w-1/3 flex items-center justify-center"><nav className="hidden lg:flex gap-4">
         <Link className="text-md font-medium hover:underline" href="/">
           Home
         </Link>
-        <Link className="text-md font-medium hover:underline" href="#">
-          About
-        </Link>
+
         <Link className="text-md font-medium hover:underline" href="/" onClick={scroll}>
           Services
         </Link>
         <Link className="text-md font-medium hover:underline" href="/contact">
           Contact
         </Link>
-      </nav>
+      </nav></div>
+      <div className=" hidden lg:flex  w-1/3 flex-col items-end justify-center">
+      <a className="flex items-center gap-2" href="tel:+919525521005">
+      <Phone className=" p-1" />
+      <p>+919525521005</p>
+      </a>
+      <a className="flex items-center gap-2" href="mailus:aryamaninfotech@gmail.com">
+      <Mail className=" p-1"/>
+      <p>aryamaninfotech@gmail.com</p>
+      </a>
+      </div>
       <Sheet >
         <SheetTrigger  asChild>
           <Button className="lg:hidden" size="icon" variant="outline">
@@ -44,9 +53,6 @@ export function Navbar() {
           <nav className="grid gap-2 py-6">
             <Link className="text-lg font-semibold" href="#">
               Home
-            </Link>
-            <Link className="text-lg font-semibold" href="#">
-              About
             </Link>
             <Link className="text-lg font-semibold" href="/" onClick={scroll}>
               Services
